@@ -61,7 +61,26 @@ background-color: rgb(190, 106, 120);
     display: flex; */
     
 }
-.form p{
+.A{
+    display: flex;
+    flex-direction: row;
+}
+.erreur1{
+    color: red;
+}
+.erreur2{
+    color: red;
+}
+.erreur3{
+    color: red;
+}
+.erreur4{
+    color: red;
+}
+.erreur5{
+    color: red;
+}
+.erreur6{
     color: red;
 }
 .button{

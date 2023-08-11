@@ -35,23 +35,35 @@
                 <h2>Please fill with your details</h2>
                 
                 <form name="Inscription" class="formulaire1">
-                    <input type="text" name="First Name" placeholder="First Name">
-                    <input type="text" name="Last Name" placeholder="Last Name"><br>
-                    <input type="text" name="Your Email" placeholder="Your Email">
-                    <input type="text" name="Phone Number" placeholder="Phone Number"><br><br>
-                    <input type="text" name="Age" placeholder="Age" >
-                    <input type="radio" name="sexe" value="" checked>male
-                    <input type="radio" name="sexe" value="" checked>female<br>
+                    <input type="text" name="First Name" placeholder="First Name" id="FirstName">
+
+                    <input type="text" name="Last Name" placeholder="Last Name" id="LastName"><br>
+                        <div class="A">
+                          <div class="erreur1"></div><div class="erreur2"></div>
+                        </div>
+              
+                    <input type="text" name="Your Email" placeholder="Your Email" id="YourEmail">
+                    <input type="text" name="Phone Number" placeholder="Phone Number" id="PhoneNumber"><br>
+                    <span class="erreur3"></span><span class="erreur4"></span><br>
+                    <input type="text" name="Age" placeholder="Age" id="Age">      
+
+                    
+                    <input type="radio" name="sexe" value="" checked id="Sexe">male
+                    <input type="radio" name="sexe" value="" checked id="Sexe">female <br>
+                    <span class="erreur5"></span>
                     <div class="col-md-8">
                         <select class="form-select form-select-sm" aria-label="Small select example">
-                          <option id="Country" selected>Your Country</option>
-                          <option value="1">Burkina Faso</option>
-                          <option value="2">Mali</option>
-                          <option value="3">Cote d'Ivoire</option>
+                          <option value="Your Country" selected>Your Country</option>
+                          <option value="Burkina">Burkina</option>
+                          <option value="Mali">Mali</option>
+                          <option value="Niger">Niger</option>
+                      
                         </select>
-                        <p style="color:red"; id="erreur"></p>
+                        <span class="erreur6"></span>
+    
+                        
                         <div class="button"><br>
-                            <input type="submit" id="Inscription" >
+                            <button type="submit" id="Inscription" >Forward</button>
                         </div>
                     </div>
                 </form>
